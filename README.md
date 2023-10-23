@@ -2,6 +2,8 @@
 
 # DBMS-SQL : Learning Just Enough DBMS & SQL for Tech Interviews
 
+![SQL](https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif)
+
 - [DBMS-Fundamentals](#dbms-fundamentals)
    * [SQL 1: Intro to DBMS ](#sql-1-intro-to-dbms)
    * [SQL 2: Keys](#sql-2-keys)
