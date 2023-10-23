@@ -1,2 +1,108 @@
 # DBMS-Fundamentals
 Exploring the core principles and concepts of Database Management Systems.
+
+## SQL 1: Intro to DBMS 
+  - What is a database? 
+      - A database is a structured collection of data that is organized and stored for efficient retrieval, management, and manipulation.
+      - Example: An online retail store's database that stores information about products, customers, and orders.
+  - Why do we use DBMS? 
+      - A Database Management System (DBMS) is used to efficiently manage and interact with databases, providing features like data retrieval, insertion, modification, and security.
+      - Example: Using a DBMS like MySQL to manage a database of employee records in a company.
+  - What are the different types of databases? 
+      - Databases can be categorized into different types, such as relational and non-relational (NoSQL), based on their data structure and storage mechanism.
+      - Example: Relational databases like PostgreSQL and non-relational databases like MongoDB.
+  - Database and the relational model 
+      - The relational model organizes data into tables with rows and columns, fostering relationships between data entities.
+      - Example: A relational database for a library system with tables for books, authors, and borrowers.
+  - Key terms 
+      - Data: Raw facts and figures.
+      - Database: Organized collection of related data.
+      - DBMS: Software for managing databases.
+      - Relational Database: Database using tables to store data.
+      - Non-relational Database: Database not using tables.
+  - Brute Force way of storage - Files 
+      - Issues with file-based storage
+          - Storing data in flat files can lead to inefficiencies, lack of data integrity, and limited querying capabilities.
+          - Example: Using text files to store customer information without indexing.
+      - Limitations of using files for real applications
+          - Files are inadequate for real-world applications due to difficulties in managing and querying data.
+          - Example: Attempting to build a complex e-commerce platform using text files to store product information.
+  - Types of DBMS 
+      - Relational DBMS
+          - Relational DBMS uses tables to store data and enforces data integrity using relationships.
+          - Example: MySQL used to manage customer data for an online forum.
+      - Non-Relational (NoSQL) DBMS
+          - NoSQL databases store data in various ways, such as documents, key-value pairs, or graphs, and are often used for flexible data structures.
+          - Example: MongoDB for storing unstructured user-generated content like social media posts.
+  - Relational DBMS 
+      - Advantages and use cases
+          - Relational DBMS excels in maintaining data integrity, supporting complex queries, and ensuring data consistency.
+          - Example: Using PostgreSQL to manage financial data in a banking system.
+      - Examples of popular relational DBMS
+          - Mention some widely used relational DBMS systems.
+          - Example: PostgreSQL, Oracle, Microsoft SQL Server.
+  - Relational Model 
+      - Tables (Relations)
+          - Tables are the fundamental structure of the relational model, representing entities and attributes.
+          - Example: A "Students" table with columns for "StudentID," "Name," and "GPA."
+      - Rows (Tuples) and Columns (Attributes)
+          - Rows contain individual data records, while columns represent specific data attributes.
+          - Example: In a "Customers" table, a row represents a single customer, and columns may include "CustomerID" and "Address."
+      - Primary Keys and Foreign Keys
+          - Primary keys uniquely identify rows, while foreign keys establish relationships between tables.
+          - Example: In an "Orders" table, "OrderID" can be a primary key, and "CustomerID" can be a foreign key connecting to the "Customers" table.
+  - Properties of the Relational Model 
+      - Data Integrity
+          - Ensuring data accuracy and consistency through constraints like unique values and data types.
+          - Example: Enforcing that all email addresses in a database are unique.
+      - Data Consistency
+          - Maintaining data consistency across tables and relationships.
+          - Example: Ensuring that if a product is deleted, related order records are updated or deleted.
+      - Data Security
+          - Protecting data from unauthorized access and ensuring only authorized users can modify it.
+          - Example: Implementing role-based access control to restrict access to sensitive financial data.
+      - ACID Properties (Atomicity, Consistency, Isolation, Durability)
+          - ACID properties guarantee the reliability and robustness of database transactions.
+          - Example: In a banking system, ensuring that a transfer of funds from one account to another is both atomic and consistent, even in the event of a system crash.
+  - SQL as the query language for relational databases 
+      - SQL (Structured Query Language) is the standard language for interacting with relational databases, allowing users to perform operations like SELECT, INSERT, UPDATE, and DELETE.
+      - Example: Writing SQL queries to retrieve customer information from a database or update inventory levels in an e-commerce system.
+
+## SQL 2: Keys
+   
+### Class Notes
+  - Keys: Keys are essential in database management and play crucial roles in organizing and linking data. Let's explore various types of keys and their significance:
+  - Uniquely Identifying Tuples: Keys are used to uniquely identify a tuple in a relation (table) or to describe relationships between relations (tables).
+      - Example - Identifying a Student: 
+          - Consider the "Student" relation with attributes (name, age, address, phone, email).
+          - To uniquely identify a student:
+              - Name alone might not be unique.
+              - Either phone or email would be sufficient, as each student has a unique phone or email address.
+  - Super Keys: Super keys are sets of attributes that uniquely identify a tuple in a relation.
+      - Super Keys for "Student" Relation: 
+          - For the "Student" relation, some super keys include:
+              - {id, name}
+              - {id, name, phone}
+              - {id, name, email}
+              - {id, name, email, phone}
+              - {id, name, email, phone, age, address}
+              - {id}
+  - Candidate Keys: Candidate keys are minimal sets of attributes that uniquely identify a tuple in a relation.
+      - Removing any attribute from a candidate key would no longer ensure unique identification.
+      - Candidate Keys for "Student" Relation: 
+          - A set of candidate keys for the "Student" relation:
+              - id
+              - phone
+              - email
+  - Primary Keys: A primary key is a specific choice of a minimal set of attributes that uniquely specify a tuple in a relation.
+      - Each relation can have only one primary key.
+      - Primary keys are selected from the set of candidate keys, and any other candidate key is considered an alternate key.
+  - Composite Keys: Composite keys use multiple attributes to uniquely identify a tuple.
+      - Useful when a single attribute is insufficient.
+      - Commonly used in mapping tables to establish relationships between tables.
+  - Foreign Keys: A foreign key is a set of attributes in a table that refers to the primary key of another table.
+      - Used to link two tables together based on common attributes.
+      - Helps maintain data integrity and relationships between related data.
+      - Example - Using Foreign Keys: 
+          - To add a batch to a student, instead of duplicating all batch-related columns in the student relation, we can use a foreign key.
+          - For example, "Batch Id" in the "Student" relation can reference the primary key of the "Batch" table.      
