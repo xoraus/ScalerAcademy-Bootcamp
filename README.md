@@ -380,9 +380,9 @@ amount NUMERIC(10, 2)
 <!-- TOC --><a name="resources"></a>
 ###  Resources
 - GitHub Rep: https://github.com/rahulgrover99/Aug22Beg-SQL/blob/main/sql-1.md 
-- String Functions: https://drive.google.com/file/d/1znbgY0xCCg1gKg2VBdbqEGb6sxmqZ-ud/view?usp=sharing
-- Number Functions: https://drive.google.com/file/d/1jR1O-02BFZdWZNdrEvaG2ZZq9E9TlNaL/view?usp=sharing
-- Data Types: https://drive.google.com/file/d/1GHeBM4nEB-CCZ3SMbRJxhjIwrZ_2TAZx/view?usp=drive_link
+- String Functions: # Refer Correspoding lecture for gdrive link.
+- Number Functions: # Refer Correspoding lecture for gdrive link.
+- Data Types: # Refer Correspoding lecture for gdrive link.
 
 <!-- TOC --><a name="sql-3-crud-i"></a>
 ## SQL 3: CRUD - I
