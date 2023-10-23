@@ -1,6 +1,31 @@
 # DBMS-Fundamentals
 Exploring the core principles and concepts of Database Management Systems.
 
+
+- [DBMS-Fundamentals](#dbms-fundamentals)
+   * [SQL 1: Intro to DBMS ](#sql-1-intro-to-dbms)
+   * [SQL 2: Keys](#sql-2-keys)
+      + [Class Notes](#class-notes)
+      + [SQL Lab](#sql-lab)
+      + [Extra Notes](#extra-notes)
+      + [Resources](#resources)
+   * [SQL 3: CRUD - I](#sql-3-crud---i)
+   * [SQL 4: CRUD - II](#sql-4-crud---ii)
+   * [SOL 5: Joins - I](#sol-5-joins---i)
+   * [SQL 6: Joins - II](#sql-6-joins---ii)
+   * [SQL 7: Aggregate Queries](#sql-7-aggregate-queries)
+   * [SQL 8: Subqueries and Views](#sql-8-subqueries-and-views)
+   * [SQL 9: Indexing](#sql-9-indexing)
+      + [Class Notes](#class-notes-1)
+      + [Problem Set](#problem-set)
+      + [References](#references)
+   * [SQL 10: Transactions - I](#sql-10-transactions---i)
+   * [SQL 10: Transactions - II](#sql-10-transactions---ii)
+   * [SQL 11: Schema Design - I](#sql-11-schema-design---i)
+   * [SQL 12: Schema Design • - I](#sql-12-schema-design----i)
+
+<!-- TOC end -->
+
 ## SQL 1: Intro to DBMS 
   - What is a database? 
       - A database is a structured collection of data that is organized and stored for efficient retrieval, management, and manipulation.
