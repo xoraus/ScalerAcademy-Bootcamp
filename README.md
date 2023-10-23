@@ -1,7 +1,6 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-# DBMS-Fundamentals
-Exploring the core principles and concepts of Database Management Systems.
+# DBMS-SQL : Learning Just Enough DBMS & SQL for Tech Interviews
 
 - [DBMS-Fundamentals](#dbms-fundamentals)
    * [SQL 1: Intro to DBMS ](#sql-1-intro-to-dbms)
