@@ -4,29 +4,33 @@ Explore this repository to discover my well-organized, topic-wise notes, careful
 
 ---
 
-### 1. [Programming Fundamentals](#)
+### 1. Programming Fundamentals
    
-### 2. [Data Structures and Algorithms](#)
+### 2. Data Structures and Algorithms
 
-### 3. [DBMS, SQL & Schema Design](https://github.com/xoraus/ScalerAcademy-Notes/tree/main/01-Databas-SQL#sql-1-intro-to-dbms) 
+### 3. DBMS, SQL & Schema Design
+   1. [DBMS & SQL](https://github.com/xoraus/ScalerAcademy-Notes/tree/main/01-Databas-SQL#sql-1-intro-to-dbms)
+   2. [Schema Design](#)
+   3. [SQL Interview Guide](https://github.com/xoraus/CrackingTheSQLInterview)
+   4. [Leetcode: Top 50 SQL Questions](github.com/xoraus/top50sql-leetcode)
 
-### 4. [Low Level Design - I (CS Fundamentals)](#)
+### 4. Low Level Design - I (CS Fundamentals)
    1. [Object Oriented Programming](https://github.com/xoraus/ScalerAcademy-Bootcamp/blob/main/02-OOP-Concurrency-Advance-Java/02-OOP-Concurrency-Java.md) 
    2. [Operating Systems](#) 
    3. [Advance Java](#)
 
-### 5. [Low Level Design - II (Design Principles & Patterns)](#)
+### 5. Low Level Design - II (Design Principles & Patterns)
  1. [Design Principles]()
  2. [Design Patterns](#)
 
-### 6. [Low Level Design - III (Machine Coding)](#)
+### 6. Low Level Design - III (Machine Coding)
   1. [How to Design a Pen](https://github.com/xoraus/ScalerAcademy-Bootcamp/blob/main/04-Machine-Coding/01.how-to-design-a-pen.md)
   2. [Design TicTacToe](#)
   3. [Design Parking Lot](#)
   4. [Design BookMyShow](#)
   5. [Design Splitwise](#)
 
-### 7. [System Design](#)
+### 7. System Design
 
 <!--
 
