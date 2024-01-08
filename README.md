@@ -4,7 +4,7 @@ Explore this repository to discover my well-organized, topic-wise notes, careful
 
 ---
 
-1. [Programming Fundamentals](#) 
+1. [Programming Fundamentals](#)
 2. [Data Structures and Algorithms](#)
 3. [DBMS, SQL & Schema Design](https://github.com/xoraus/ScalerAcademy-Notes/tree/main/01-Databas-SQL#sql-1-intro-to-dbms) ✅
 4. [Low Level Design I (CS Fundamentals)](#)
@@ -14,7 +14,13 @@ Explore this repository to discover my well-organized, topic-wise notes, careful
 5. [Low Level Design II (Design Principles & Patterns)](#)
    1. [Design Principles]()
    2. [Design Patterns](#)
-6. [System Design](#)
+6. [Low Level Design III (Machine Coding)](#)
+   1. [How to Design a Pen](#)
+   2. [Design TicTacToe]()
+   3. [Design Parking Lot](#)
+   4. [Design BookMyShow](#)
+   5. [Design Splitwise](#)
+7. [System Design](#)
 
 <!--
 
